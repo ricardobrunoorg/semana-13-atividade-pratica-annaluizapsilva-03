@@ -7,10 +7,10 @@ Para esse projeto, além de mudarmos o JSON para o JSON Server, vamos permitir o
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:Anna Luiza Pereira Silva
+- Matricula:1656540
+- Proposta de projeto escolhida:Blog de moda
+- Breve descrição sobre seu projeto:O projeto foi pensado para ajudar as pessoas a escolher suas peças/looks e deixar-las informadas sobre lançamentos de moda.
 
 **Registros do trabalho**
 
@@ -42,7 +42,7 @@ Para esse projeto, além de mudarmos o JSON para o JSON Server, vamos permitir o
 }
 ```
 
-<< COLOQUE A IMAGEM DA HOME AQUI >>
+[!p]()
 
 << COLOQUE A IMAGEM DA TELA DE DETALHES AQUI >>
 
