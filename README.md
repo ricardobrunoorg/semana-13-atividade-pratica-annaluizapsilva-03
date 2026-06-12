@@ -18,33 +18,140 @@ Para esse projeto, além de mudarmos o JSON para o JSON Server, vamos permitir o
 
 ```json
 {
-  "cidades": [
+  "looks": [
     {
       "id": 1,
-      "nome": "Paris",
-      "descricao": "Capital francesa famosa por arte, gastronomia e arquitetura icônica.",
-      "conteudo": "Paris oferece museus de classe mundial, boulevards arborizados e cafés charmosos. Ideal para quem busca história, cultura e experiências gastronômicas.",
-      "pais": "França",
-      "destaque": true,
-      "data": "2025-03-30",
-      "imagemPrincipal": "img/paris.jpg"
+      "nome": "Look Casual Feminino",
+      "descricaoCurta": "Confortável para o dia a dia.",
+      "descricaoCompleta": "Look composto por camiseta branca, jeans azul e tênis branco. Ideal para passeios e compromissos informais.",
+      "imagem": "https://picsum.photos/300?1",
+      "categoria": "Casual",
+      "preco": 149.90,
+      "tags": ["casual", "jeans", "conforto"],
+      "destaque": true
+    },
+    {
+      "id": 2,
+      "nome": "Look Social Elegante",
+      "descricaoCurta": "Perfeito para eventos.",
+      "descricaoCompleta": "Blazer preto, camisa social branca e calça de alfaiataria.",
+      "imagem": "https://picsum.photos/300?2",
+      "categoria": "Social",
+      "preco": 299.90,
+      "tags": ["social", "elegante"],
+      "destaque": true
+    },
+    {
+      "id": 3,
+      "nome": "Look Verão",
+      "descricaoCurta": "Leve e moderno.",
+      "descricaoCompleta": "Vestido floral leve ideal para dias quentes.",
+      "imagem": "https://picsum.photos/300?3",
+      "categoria": "Verão",
+      "preco": 119.90,
+      "tags": ["verão", "floral"],
+      "destaque": false
+    },
+    {
+      "id": 4,
+      "nome": "Look Inverno",
+      "descricaoCurta": "Proteção e estilo.",
+      "descricaoCompleta": "Casaco de lã, cachecol e botas.",
+      "imagem": "https://picsum.photos/300?4",
+      "categoria": "Inverno",
+      "preco": 399.90,
+      "tags": ["inverno", "casaco"],
+      "destaque": false
+    },
+    {
+      "id": 5,
+      "nome": "Look Fitness",
+      "descricaoCurta": "Treino com conforto.",
+      "descricaoCompleta": "Conjunto esportivo respirável para academia.",
+      "imagem": "https://picsum.photos/300?5",
+      "categoria": "Fitness",
+      "preco": 179.90,
+      "tags": ["fitness", "academia"],
+      "destaque": true
+    },
+    {
+      "id": 6,
+      "nome": "Look Praia",
+      "descricaoCurta": "Ideal para o litoral.",
+      "descricaoCompleta": "Saída de praia e acessórios leves.",
+      "imagem": "https://picsum.photos/300?6",
+      "categoria": "Verão",
+      "preco": 89.90,
+      "tags": ["praia", "verão"],
+      "destaque": false
+    },
+    {
+      "id": 7,
+      "nome": "Look Executivo",
+      "descricaoCurta": "Profissional e elegante.",
+      "descricaoCompleta": "Conjunto formal para ambiente corporativo.",
+      "imagem": "https://picsum.photos/300?7",
+      "categoria": "Social",
+      "preco": 329.90,
+      "tags": ["executivo", "formal"],
+      "destaque": true
+    },
+    {
+      "id": 8,
+      "nome": "Look Streetwear",
+      "descricaoCurta": "Moda urbana.",
+      "descricaoCompleta": "Moletom oversized e tênis esportivo.",
+      "imagem": "https://picsum.photos/300?8",
+      "categoria": "Casual",
+      "preco": 189.90,
+      "tags": ["streetwear", "urbano"],
+      "destaque": false
+    },
+    {
+      "id": 9,
+      "nome": "Look Romântico",
+      "descricaoCurta": "Delicado e elegante.",
+      "descricaoCompleta": "Vestido midi em tons pastel.",
+      "imagem": "https://picsum.photos/300?9",
+      "categoria": "Feminino",
+      "preco": 219.90,
+      "tags": ["romântico", "vestido"],
+      "destaque": false
+    },
+    {
+      "id": 10,
+      "nome": "Look Festa",
+      "descricaoCurta": "Brilho e sofisticação.",
+      "descricaoCompleta": "Vestido longo com detalhes brilhantes.",
+      "imagem": "https://picsum.photos/300?10",
+      "categoria": "Festa",
+      "preco": 499.90,
+      "tags": ["festa", "elegante"],
+      "destaque": true
     }
   ],
-  "atracoes": [
+
+  "categorias": [
+    { "id": 1, "nome": "Casual" },
+    { "id": 2, "nome": "Social" },
+    { "id": 3, "nome": "Verão" },
+    { "id": 4, "nome": "Inverno" }
+  ],
+
+  "comentarios": [
     {
       "id": 1,
-      "cidadeId": 1,
-      "nome": "Torre Eiffel",
-      "descricao": "Monumento símbolo de Paris com mirantes panorâmicos.",
-      "imagem": "img/atracoes/torre_eiffel.jpg"
+      "lookId": 1,
+      "autor": "Maria",
+      "texto": "Muito bonito!"
     }
   ]
 }
 ```
 
-[!p]()
+![p](imagens/homejson.png)
 
-<< COLOQUE A IMAGEM DA TELA DE DETALHES AQUI >>
+![p](imagens/detalhesjson.png)
 
 
 
